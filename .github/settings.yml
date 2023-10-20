@@ -1,4 +1,5 @@
 # These settings are synced to GitHub by https://github.com/github/safe-settings
+
 repository:
   allow_auto_merge: true
   allow_merge_commit: false
