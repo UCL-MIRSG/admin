@@ -127,4 +127,4 @@ branches:
         strict: true
         contexts: []
       enforce_admins: true
-      restrictions: null
+      restrictions:
