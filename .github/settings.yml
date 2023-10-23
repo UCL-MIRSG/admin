@@ -106,6 +106,9 @@ teams:
   - name: mirsg
     permission: admin
 
+# Each top-level element under branch protection must be filled. If one doesn't
+# want to use one of them you must set it to empty. Otherwise, none of the
+# settings will be applied.
 branches:
   # `default` creates a branch protection rule to against the repo's base branch
   - name: default
