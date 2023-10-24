@@ -123,9 +123,7 @@ branches:
             - renovate
           users: []
           teams: []
-        dismissal_restrictions:
-          users: []
-          teams: []
+        dismissal_restrictions: {}
       required_status_checks:
         strict: true
         contexts: []
