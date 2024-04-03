@@ -33,6 +33,8 @@ branches:
           users:
           teams:
         dismissal_restrictions:
+          users:
+          teams:
       required_status_checks:
       enforce_admins: true
       restrictions:
