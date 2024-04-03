@@ -1,5 +1,5 @@
 # These settings are synced to GitHub by https://github.com/github/safe-settings
-
+---
 repository:
   allow_auto_merge: true
   allow_merge_commit: false
@@ -30,9 +30,11 @@ branches:
         bypass_pull_request_allowances:
           apps:
             - renovate
-          users: []
-          teams: []
-        dismissal_restrictions: {}
+          users:
+          teams:
+        dismissal_restrictions:
+          users:
+          teams:
       required_status_checks:
       enforce_admins: true
       restrictions:
