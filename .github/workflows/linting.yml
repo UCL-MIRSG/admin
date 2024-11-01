@@ -12,6 +12,6 @@ jobs:
   linting:
     runs-on: ubuntu-latest
     steps:
-      - uses: UCL-MIRSG/.github/actions/linting@ecd8fdc4f0f39b826fb6d7e97922d66a9929308f # v0.107.0
+      - uses: UCL-MIRSG/.github/actions/linting@c3814a70ce74e9b35fb361c4eeda033882314320 # v0.117.0
         with:
           pre-commit-config: ./.pre-commit-config.yaml
