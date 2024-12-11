@@ -13,6 +13,12 @@ repository:
   squash_merge_commit_message: PR_BODY
   squash_merge_commit_title: PR_TITLE
 
+# See the docs (https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-autolinks-to-reference-external-resources) for a description of autolinks and replacement values.
+autolinks:
+  - key_prefix: "ARCMYS-"
+    url_template: "https://myservices-arc.uk.4me.com/requests/<num>"
+    is_alphanumeric: false
+
 teams:
   - name: mirsg
     permission: admin
